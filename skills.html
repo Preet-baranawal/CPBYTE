@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skills & Projects — Preet Baranawal</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="logo"><a href="index.html">Preet Baranawal</a></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html" class="active">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="skills-header">
+      <h1>Skills & Projects</h1>
+      <p>Below are a few skills and mini-projects I have worked on. Cards are aligned using Flexbox.</p>
+    </section>
+
+    
+    <section class="cards-container">
+      <div class="skill-card" style="background:#fef3e6; border:2px solid #f0a500;">
+        <h3>Web Development</h3>
+        <p>Built multi-page portfolios and small responsive websites using HTML & CSS.</p>
+      </div>
+
+      <div class="skill-card" style="background:#e6f7ff; border:2px solid #3aa0ff;">
+        <h3>Data Structures & Algorithms</h3>
+        <p>Practice with problem solving, implementing arrays, linked lists, stacks and sorting.</p>
+      </div>
+
+      <div class="skill-card" style="background:#e9fbe9; border:2px solid #3bb24a;">
+        <h3>Mini Projects</h3>
+        <p>Mini projects: To-do app (HTML/CSS), Portfolio (this site), Simple calculator pages.</p>
+      </div>
+
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> Subh B — Skills</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>

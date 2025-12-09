@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="logo"><a href="index.html">Preet Baranawal</a></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="hero">
+      <img class="hero-image" src="Passport_Size_Photograph_7684460_738721055QLKYW8.jpg" height="300px" width="300px" alt="Profile photo" />
+      <div class="hero-text">
+        <h1>Hello — I'm Preet Baranawal</h1>
+        <p>I am a B.Tech CSE(AI) Student who loves coding, building practical projects, and learning system design. I enjoy hands-on work and aim to secure a high-paying role in software engineering after graduation.</p>
+        <p>This portfolio demonstrates HTML/CSS fundamentals, layout with float and flexbox, and a small projects/skills showcase.</p>
+        <a class="btn" href="skills.html">See my skills & projects</a>
+      </div>
+    </section>
+
+    
+    <section class="highlights">
+      <div class="card small">
+        <h3>Education</h3>
+        <p>B.Tech CSE(AI) — pursuing</p>
+      </div>
+      <div class="card small">
+        <h3>Interests</h3>
+        <p>Web dev, DS & Algo, ML basics</p>
+      </div>
+      <div class="card small">
+        <h3>Goal</h3>
+        <p>Get an internship & then a full-time SWE role</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Preet Baranawal — Student Portfolio</p>
+    </div>
+  </footer>
+
+  <script>
+    
+    document.getElementById('year').textContent = new Date(9/12).getFullYear(2025);
+  </script>
+</body>
+</html>
